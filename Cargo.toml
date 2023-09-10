@@ -1,0 +1,12 @@
+[package]
+name = "archive-recognition-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dlib-face-recognition = { version = "0.3.1", features = ["build-native", "embed-all"] }
+image = "0.24.7"
+
+[features]
+build-native = []
+embed-all = []
